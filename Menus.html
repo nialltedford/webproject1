@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Hotel Project</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/d3js/7.0.0/d3.min.js"></script>
+  <link rel= "stylesheet" href ="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="Menus.css"/>
+
+ <nav class="navbar navbar-default">
+ <div class="container-fluid">
+ <div class="navbar-header">
+ <a class="navbar-brand" href="#">TEDFORDS KITCHEN @ THE SLIEVE LEAGUE HOTEL</a>
+ </div>
+    <ul class="nav navbar-nav nav-links">
+      <li class="active"><a href="#">HOME</a></li>
+      <li><a href="Menus.html">MENUS</a></li>
+     <li><a href="Contact.html">CONTACT</a></li>
+      <li><a href="About.html">ABOUT</a></li>
+    </ul>
+  </div>
+</nav>
+
+  
+  </head>
+
+<div id="menu" class="w3-container w3-black w3-xxlarge w3-padding-64">
+<h1 class="w3-center w3-jumbo w3-padding-32">OUR MENU</h1>
+
+<br>
+
+
+<h1 id="starters" class="w3-center w3-jumbo w3-padding-32">STARTERS</h1>
+<div class="w3-container w3-white w3-padding-32">
+
+<h1><b>Today's Soup</b> <span class="w3-tag w3-grey w3-round">Seasonal</span>
+<span class="w3-right w3-tag w3-dark-grey w3-round">€7.50</span></h1>
+<p class="w3-text-grey">Ask the waiter</p>
+<hr>
+
+<h1><b>Bruschetta</b> <span class="w3-right w3-tag w3-dark-grey w3-round">€8.50</span></h1>
+<p class="w3-text-grey">Bread with pesto, tomatoes, onion, garlic</p>
+<hr>
+
+<h1><b>Garlic bread</b> <span class="w3-right w3-tag w3-dark-grey w3-round">€9.50</span></h1>
+<p class="w3-text-grey">Grilled ciabatta, garlic butter, onions</p>
+</div>
+</div>
+
+<br>
+<br>
+<br>
+
+
+
+<h1 id="starters" class="w3-center w3-jumbo w3-padding-32">MEAT</h1>
+<div class="w3-container w3-white w3-padding-32">
+<h1><b>Steak</b> <span class="w3-right w3-tag w3-dark-grey w3-round">€28.50</span></h1>
+<p class="w3-text-grey">12oz Rib-eye Steak, fresh potatoes (mash or roast) fresh vegtables</p>
+<hr>
+
+<h1><b>Chicken Supreme</b> <span class="w3-right w3-tag w3-dark-grey w3-round">€18.50</span></h1>
+<p class="w3-text-grey">Roast Chicken serverd with chips and sage stuffing</p>
+<hr>
+
+<h1><b>Meatballs</b> <span class="w3-tag w3-red w3-round">Hot!</span>
+<span class="w3-right w3-tag w3-dark-grey w3-round">€18.00</span></h1>
+<p class="w3-text-grey">Fresh meatballs served in mozzarella pasta </p>
+</div>
+
+<br>
+<br>
+<br>
+
+
+<h1 id="seafood" class="w3-center w3-jumbo w3-padding-32">PASTA</h1>
+<div class="w3-container w3-white w3-padding-32">
+
+<h1><b>Seafood Chowder</b> <span class="w3-tag w3-grey w3-round">Popular</span>
+<span class="w3-right w3-tag w3-dark-grey w3-round">€9.50</span></h1>
+<p class="w3-text-grey">Our world famous chowder soup</p>
+<hr>
+
+<h1><b>Seabass</b> <span class="w3-right w3-tag w3-dark-grey w3-round">€24.50</span></h1>
+<p class="w3-text-grey">Seabass served with roast potatoes and fresh vegtables</p>
+<hr>
+
+<h1><b>Monkfish</b> <span class="w3-right w3-tag w3-dark-grey w3-round">€22.00</span></h1>
+<p class="w3-text-grey">Monkfish served with chips and fresh vegtables</p>
+</div>
+
+<br>
+<br>
+<br>
+
+<script> 
+$(document).ready(function(){
+  $("#flip").click(function(){
+    $("#panel").slideDown("slow");
+  });
+});
+</script>
+<style> 
+#panel, #flip {
+  padding: 5px;
+  text-align: center;
+  background-color: #e5eecc;
+  border: solid 1px #c3c3c3;
+}
+
+#panel {
+  padding: 50px;
+  display: none;
+}
+</style>
+</head>
+<body>
+ 
+<div id="flip">Click here to view todays secret special ;-)</div>
+<div id="panel">Todays special is our chefs world reknowned Rigatoni Pasta!!!</div>
+
+<br>
+<br>
+<br>
+
+
+<div class="container">
+<div class="footer">
+<span>&copyTheSlieveLeagueHotel</span>
+<span class="footer-left"><i class="fa fa-phone" style="font-size:20px"></i><i>(00353)749135677</i></span>
+<span class="footer-right"><i style="font-size:20px" class="fa">&#xf0e0;</i><i>info@SlieveLeagueHotel.ie</i></span>
+</div>
+</div>
+
+
+</body>
+</html>

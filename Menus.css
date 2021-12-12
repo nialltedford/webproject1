@@ -1,0 +1,84 @@
+#meat{
+	color:orangered;
+	text-align;center;
+	font-weight:900;
+	font-family: Didot;
+	letter-spacing:7px;
+    text-shadow:1px 1px 2px black;
+}
+
+#seafood{
+	color:orangered;
+	text-align;center;
+	font-weight:900;
+	font-family: Didot;
+	letter-spacing:7px;
+    text-shadow:1px 1px 2px black;
+}
+
+#starters{
+	color:orangered;
+	text-align;center;
+	font-weight:900;
+	font-family: Didot;
+	letter-spacing:7px;
+    text-shadow:1px 1px 2px black;
+}
+
+h1{
+	color:grey;
+	text-align;center;
+	font-weight:900;
+	font-family:Arial;
+	letter-spacing:7px;
+	
+}
+
+
+p {
+	color:grey;
+	text-align;center;
+	font-weight:900;
+	font-family:Arial;
+	letter-spacing:7px;
+   
+}
+
+	
+#panel {
+  color:orangered;
+	text-align;center;
+	font-weight:900;
+	font-family: Didot;
+	letter-spacing:7px;
+    text-shadow:1px 1px 2px black;
+}	
+	
+#panel, #flip {
+color:orangered;
+	text-align;center;
+	font-weight:900;
+	font-family: Didot;
+	letter-spacing:7px;
+    text-shadow:1px 1px 2px black;
+}	
+
+
+.footer {
+position: fixed;
+left: 0;
+bottom: 0;
+width: 100%;
+background-color: #B8860B;
+color: white;
+text-align: center;
+}
+.footer-left {
+float:left;
+}
+.footer-right {
+float:right;
+}
+
+
+
